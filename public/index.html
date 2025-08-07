@@ -7,26 +7,28 @@
     <title>Home Page</title>
 </head>
 <body>
-    <h1>Hi student, Welcome to XYZ University!</h1>
-    <p>You can sign up to the platform to access all important notes & lectures.</p>
+    <h1>Hi student</h1>
+    <p>Welcome!</p>
 
     <form action="/addUser" method="POST" target="_blank" id="signupForm">
         <div class="field">
             <label for="email">Email: </label>
-            <input type="text" placeholder="jane@email.com" name="email">
+            <input type="text" name="email">
         </div>
         <div class="field">    
         <label for="username">Username: </label>
-            <input type="text" placeholder="Jane Doe" name="username">
+            <input type="text" name="username">
         </div>
         <div class="field">
             <label for="password">Password: </label>
-            <input type="password" placeholder="password" name="password">
+            <input type="password" name="password">
         </div>
         
         <button id="formBtn">Create Account</button>
         
     </form>
-</body>
+    <p></p>
+    <a href="http://localhost:5050/getUsers">To check users in database</a>
 
+</body>
 </html>

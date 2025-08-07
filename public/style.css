@@ -3,7 +3,7 @@ body {
 }
 #formBtn {
     color: white;
-    background-color:coral;
+    background-color:rgb(0, 0, 0);
     border: none;
     border-radius: 2px;
     padding: 0.25rem 1rem;
